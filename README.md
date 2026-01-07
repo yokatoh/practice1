@@ -32,3 +32,6 @@ M356 Copilotに聞くと方法を教えてくれた
 方法3：GitHubの「Fork」機能
 
 
+#practice4
+再度このファイルを更新してpushするにはcommitからでいいのか？確認する
+
