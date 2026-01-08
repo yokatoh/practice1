@@ -39,3 +39,10 @@ M356 Copilotに聞くと方法を教えてくれた
 なんかうまくいかんからやりなおし（foo.txtの変更でおかしくなった
 add →　commit　→　push　でうまくいく
 編集したらaddからやり直し、を忘れないようにしないといけない
+
+# practice5
+pullrequest してみる
+
+>git checkout -b pullreq
+
+ git add → git commit → git push
