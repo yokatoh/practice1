@@ -1,37 +1,38 @@
 # practice1
-���x������āA
+何度かやって、
 >git push -u origin main
-���悤�₭���܂��������B
-push�O�ɁAgithub�̃T�[�o����p�X���[�h�𕷂���āA���ꂽ��悤�₭�Ȃ������Bpush�ł����B
-�iGitHub�T�[�o���AAuthentication Succeeded�@�@�ƂȂ����j
+がようやくうまくいった。
+push前に、githubのサーバからパスワードを聞かれて、入れたらようやくつながった。pushできた。
+（GitHubサーバが、Authentication Succeeded　　となった）
 
 
-<�K�v�����������炵���s�ׁA�m�؂͂Ȃ�>
-�Essh-kegen�@�����������H
-�Euser.email��Git Hub�ɓo�^�����A�h���X��ݒ肵������A�J�E���g�͕�����Ȃ������H
+<必要だった準備らしき行為、確証はない>
+・ssh-kegen　が効いたか？
+・user.emailにGit Hubに登録したアドレスを設定したからアカウントは聞かれなかった？
 
 
 
 #practice2
-���[�J���̃t�@�C���������Ă��܂����炤�܂������Ȃ��Ȃ���
+ローカルのファイルを消してしまったらうまくいかなくなった
 
-�ȉ��ŉ��Ƃ����ɖ߂��iM365 Copilot����ׂ��j
+以下で何とか元に戻す（M365 Copilot恐るべし）
 
 >git reset --hard origin
 
 
 
 #practice3
-4�������organization�ڍs�Ɋւ���
+4月からのorganization移行に関して
 
-M356 Copilot�ɕ����ƕ��@�������Ă��ꂽ
-�ugit��organization���܂����ŁA���|�W�g�����R�s�[������@�������āv
+M356 Copilotに聞くと方法を教えてくれた
+「gitでorganizationをまたいで、リポジトリをコピーする方法を教えて」
 
-���@1�Fgit clone �� �V����Organization��push
-���@2:�ʏ��clone�{remote�ǉ�
-���@3�FGitHub�́uFork�v�@�\
+方法1：git clone → 新しいOrganizationにpush
+方法2:通常のclone＋remote追加
+方法3：GitHubの「Fork」機能
 
 
 #practice4
-�ēx���̃t�@�C�����X�V����push����ɂ�commit����ł����̂��H�m�F����
-�Ȃ񂩂��܂������񂩂���Ȃ����ifoo.txt�̕ύX�ł��������Ȃ����j
+再度このファイルを更新してpushするにはcommitからでいいのか？確認する
+なんかうまくいかんからやりなおし（foo.txtの変更でおかしくなった
+add →　commit　→　push　でうまくいく
