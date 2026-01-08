@@ -46,3 +46,5 @@ pullrequest してみる
 >git checkout -b pullreq
 
  git add → git commit → git push
+
+github のサイトでプルリクする
