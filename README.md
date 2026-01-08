@@ -7,12 +7,13 @@ push前に、githubのサーバからパスワードを聞かれて、入れた�
 
 
 <必要だった準備らしき行為、確証はない>
-・ssh-kegen　が効いたか？
+
+・ssh-keygen　が効いたか？
 ・user.emailにGit Hubに登録したアドレスを設定したからアカウントは聞かれなかった？
 
 
 
-#practice2
+# practice2
 ローカルのファイルを消してしまったらうまくいかなくなった
 
 以下で何とか元に戻す（M365 Copilot恐るべし）
@@ -21,7 +22,7 @@ push前に、githubのサーバからパスワードを聞かれて、入れた�
 
 
 
-#practice3
+# practice3
 4月からのorganization移行に関して
 
 M356 Copilotに聞くと方法を教えてくれた
@@ -32,7 +33,7 @@ M356 Copilotに聞くと方法を教えてくれた
 方法3：GitHubの「Fork」機能
 
 
-#practice4
+# practice4
 再度このファイルを更新してpushするにはcommitからでいいのか？確認する
 なんかうまくいかんからやりなおし（foo.txtの変更でおかしくなった
 add →　commit　→　push　でうまくいく
