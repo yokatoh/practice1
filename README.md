@@ -1,6 +1,6 @@
 # practice1
 何度かやって、
->git push -u origin main
+$ git push -u origin main
 がようやくうまくいった。
 push前に、githubのサーバからパスワードを聞かれて、入れたらようやくつながった。pushできた。
 （GitHubサーバが、Authentication Succeeded　　となった）
@@ -9,6 +9,7 @@ push前に、githubのサーバからパスワードを聞かれて、入れた�
 <必要だった準備らしき行為、確証はない>
 
 ・ssh-keygen　が効いたか？
+
 ・user.emailにGit Hubに登録したアドレスを設定したからアカウントは聞かれなかった？
 
 
@@ -37,3 +38,4 @@ M356 Copilotに聞くと方法を教えてくれた
 再度このファイルを更新してpushするにはcommitからでいいのか？確認する
 なんかうまくいかんからやりなおし（foo.txtの変更でおかしくなった
 add →　commit　→　push　でうまくいく
+編集したらaddからやり直し、を忘れないようにしないといけない
