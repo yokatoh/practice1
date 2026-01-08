@@ -2,7 +2,7 @@
 何度かやって、
 $ git push -u origin main
 がようやくうまくいった。
-push前に、githubのサーバからパスワードを聞かれて、入れたらようやくつながった。pushできた。
+pushしたら、githubのサーバからパスワードを聞かれて、入れたらようやくつながった。pushできた。
 （GitHubサーバが、Authentication Succeeded　　となった）
 
 
