@@ -48,3 +48,5 @@ pullrequest してみる
  git add → git commit → git push
 
 github のサイトでプルリクする
+　「Pull request」のタブを触る
+　そこに書いてあるので、コメント入れたりして、承認するとサーバ上のmainにマージされる
