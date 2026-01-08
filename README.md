@@ -48,5 +48,6 @@ pullrequest してみる
  git add → git commit → git push
 
 github のサイトでプルリクする
-　「Pull request」のタブを触る
+　どのブランチからどのブランチにマージするかをボタンで選択した上で、「Pull request」のタブを触る
+　「Compare & pull request」のボタンを押す　（これでプルリク発行）
 　そこに書いてあるので、コメント入れたりして、承認するとサーバ上のmainにマージされる
