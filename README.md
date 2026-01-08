@@ -49,4 +49,5 @@ pullrequest してみる
 
 github のサイトでプルリクする
 　「Pull request」のタブを触る
+　「Compare & pull request」のボタンを押す　（これでプルリク発行）
 　そこに書いてあるので、コメント入れたりして、承認するとサーバ上のmainにマージされる
