@@ -65,3 +65,4 @@ bash にemacsをいれる　Windows側でASMRとか設定 した
 windows 用のemacs　を git bashから起動できるようにする
 ttyの問題とかなくなってC-cが使えて便利
 
+emacsclientw を　emclとしてエイリアス。2画面にならないし都合がよさそう
