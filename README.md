@@ -61,3 +61,7 @@ bash にemacsをいれる　Windows側でASMRとか設定 した
 恐ろしいことに、cmd でもemacsが起動する。パスはC:\msys64\usr\bin
 
 
+# practice7
+windows 用のemacs　を git bashから起動できるようにする
+ttyの問題とかなくなってC-cが使えて便利
+
